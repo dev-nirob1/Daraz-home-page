@@ -1,0 +1,19 @@
+.alert-bg{
+    background-image: linear-gradient(to right, #41069E, #400586);
+}
+.alert-bg .alert img{
+    width: 90vw;
+}
+.nav .nav-item .nav-link{
+    color: rgb(55, 53, 53);
+}
+.nav .nav-item .nav-link:hover{
+    color: #F57224;
+    text-decoration: underline;
+}
+.nav .nav-item .nav-fixed{
+    color: #F57224;
+}
+.navbar .navbar-brand .logo{
+    width: 140px;
+}
