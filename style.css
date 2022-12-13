@@ -1,19 +1,139 @@
-.alert-bg{
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.alert-bg {
     background-image: linear-gradient(to right, #41069E, #400586);
 }
-.alert-bg .alert img{
-    width: 90vw;
-}
-.nav .nav-item .nav-link{
+
+.nav .nav-item .nav-link {
     color: rgb(55, 53, 53);
 }
-.nav .nav-item .nav-link:hover{
+
+.nav .nav-item .nav-link:hover {
     color: #F57224;
     text-decoration: underline;
 }
-.nav .nav-item .nav-fixed{
+
+.nav .nav-item .nav-fixed {
     color: #F57224;
 }
-.navbar .navbar-brand .logo{
+
+nav .logo {
     width: 140px;
+}
+
+nav .nav-img {
+    width: 200px;
+}
+
+nav .link-font {
+    font-size: 25px;
+    padding: 9px;
+    color: rgb(43, 38, 38);
+    margin-right: 35px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+}
+
+ul li {
+    display: inline;
+}
+
+.link-nav {
+    padding-top: 20px;
+}
+
+nav form input {
+    padding: 10px 14px;
+    width: 600px;
+    outline: none;
+    border: none;
+    background-color: rgb(242, 239, 239);
+    margin: 0 20px 0 50px;
+}
+
+nav form button {
+    outline: none;
+    border: none;
+    padding: 10px 14px;
+    position: absolute;
+    top: 0;
+    left: 610px;
+    color: #fff;
+    background-color: #F57224;
+}
+
+nav form {
+    margin-left: 40px;
+    position: relative;
+}
+.carousel-bg1{
+    background-color: #FFF2EC;
+}
+.carousel-bg2{
+    background-color: #FA2B6B;
+}
+.carousel-bg3{
+    background-color: #6301B9;
+}
+.carousel-bg4{
+    background-color: #F7F7F5;
+}
+.carousel-bg5{
+    background-color: #F68404;
+}
+.carousel-item .col-md-10 img{
+    width: 100%;
+}
+.row .col-md-2 .nav .nav-item{
+    padding: 2px;
+    
+}
+.row .col-md-2 .nav .nav-item a{
+    color: rgb(56, 54, 52);
+    font-size: 14px;
+    padding-right: 8px;
+}
+.row .col-md-2 .nav .nav-item a:hover{
+    text-decoration: underline;
+    color: #50b2c6;
+}
+footer{
+    background-color: #2E2E54;
+}
+
+.dropend{
+    position: relative;
+}
+.dropend .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 76px;
+}
+
+.dropend:hover .dropdown-menu{
+    display: block;
+}
+.gif-img img{
+    display: block;
+    width: 100%;
+}
+.container .main img{
+    width: 35px;
+    height: 35px;
+}
+.main .items{
+    width: 18%;
 }
