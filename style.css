@@ -137,3 +137,28 @@ footer{
 .main .items{
     width: 18%;
 }
+.row .card .card-padding{
+   padding-left: 5px;
+}
+.container .row .card:hover{
+    box-shadow: 1px 1px 2px rgb(198, 191, 191), -1px -1px 2px rgb(186, 181, 181) ;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 2px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.img-width{
+    width: 90px;
+}
+.wrapper .card{
+    border: none;
+    cursor: pointer;
+}
+.wrapper .card:hover{
+    box-shadow: -4px -4px 7px gainsboro, 4px 4px 7px gainsboro;
+}
+.bg-color{
+   background-color: #F5F5F5;
+}
