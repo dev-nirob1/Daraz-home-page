@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
 }
 
 .alert-bg {
@@ -119,20 +119,77 @@ footer{
 }
 .dropend .dropdown-menu{
     position: absolute;
-    top: 0;
-    left: 76px;
+    top: -23px;
+    left: 163px;
+}
+
+.dropend:hover .dropdown-1{
+    position: absolute;
+    top: -45px;
+    left: 163px;
+}
+.dropend:hover .dropdown-2{
+    position: absolute;
+    top: -67px;
+    left: 163px;
+}
+.dropend .dropdown-3{
+    position: absolute;
+    top: -77px;
+    left: 163px;
+}
+.dropend .dropdown-4{
+    position: absolute;
+    top: -99px;
+    left: 163px;
+}
+.dropend .dropdown-5{
+    position: absolute;
+    top: -120px;
+    left: 163px;
+}
+.dropend .dropdown-6{
+    position: absolute;
+    top: -140px;
+    left: 163px;
+}
+.dropend .dropdown-7{
+    position: absolute;
+    top: -150px;
+    left: 163px;
+}
+.dropend .dropdown-8{
+    position: absolute;
+    top: -90px;
+    left: 163px;
+}
+.dropend .dropdown-9{
+    position: absolute;
+    top: -100px;
+    left: 163px;
+}
+.dropend .dropdown-10{
+    position: absolute;
+    top: -110px;
+    left: 163px;
+}
+.dropend .dropdown-11{
+    position: absolute;
+    top: -120px;
+    left: 163px;
 }
 
 .dropend:hover .dropdown-menu{
     display: block;
 }
-.gif-img img{
-    display: block;
-    width: 100%;
-}
+
 .container .main img{
     width: 35px;
     height: 35px;
+}
+.img-gif{
+    max-width: 90%;
+    cursor: pointer
 }
 .main .items{
     width: 18%;
@@ -161,4 +218,12 @@ footer{
 }
 .bg-color{
    background-color: #F5F5F5;
+}
+
+footer .container .row .col-md-3 a{
+    font-weight: 500;
+    text-decoration: none;
+}
+footer .container .row .col-md-3 a:hover {
+    text-decoration: underline ;
 }
