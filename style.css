@@ -3,13 +3,16 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+    font-family: Roboto-Regular, 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif;
 }
 
 .alert-bg {
     background-image: linear-gradient(to right, #41069E, #400586);
 }
-
+.alert img{
+    width: 80vw;
+    height: 80px;
+}
 .nav .nav-item .nav-link {
     color: rgb(55, 53, 53);
 }
@@ -64,6 +67,11 @@ nav form input {
     margin: 0 20px 0 50px;
 }
 
+nav form {
+    margin-left: 40px;
+    position: relative;
+}
+
 nav form button {
     outline: none;
     border: none;
@@ -75,165 +83,281 @@ nav form button {
     background-color: #F57224;
 }
 
-nav form {
-    margin-left: 40px;
-    position: relative;
-}
-.carousel-bg1{
+
+.carousel-bg1 {
     background-color: #FFF2EC;
 }
-.carousel-bg2{
+
+.carousel-bg2 {
     background-color: #FA2B6B;
 }
-.carousel-bg3{
+
+.carousel-bg3 {
     background-color: #6301B9;
 }
-.carousel-bg4{
+
+.carousel-bg4 {
     background-color: #F7F7F5;
 }
-.carousel-bg5{
+
+.carousel-bg5 {
     background-color: #F68404;
 }
-.carousel-item .col-md-10 img{
+
+.carousel-item .col-md-10 img {
     width: 100%;
 }
-.row .col-md-2 .nav .nav-item{
+
+.row .col-md-2 .nav .nav-item {
     padding: 2px;
-    
+
 }
-.row .col-md-2 .nav .nav-item a{
+
+.row .col-md-2 .nav .nav-item a {
     color: rgb(56, 54, 52);
     font-size: 14px;
     padding-right: 8px;
 }
-.row .col-md-2 .nav .nav-item a:hover{
+
+.row .col-md-2 .nav .nav-item a:hover {
     text-decoration: underline;
     color: #50b2c6;
 }
-footer{
+
+footer {
     background-color: #2E2E54;
 }
 
-.dropend{
+.dropend {
     position: relative;
 }
-.dropend .dropdown-menu{
+
+.dropend .dropdown-menu {
     position: absolute;
     top: -20px;
     left: 163px;
 }
 
-.dropend:hover .dropdown-1{
+.dropend:hover .dropdown-1 {
     position: absolute;
     top: -45px;
     left: 163px;
 }
-.dropend:hover .dropdown-2{
+
+.dropend:hover .dropdown-2 {
     position: absolute;
     top: -70px;
     left: 163px;
 }
-.dropend .dropdown-3{
+
+.dropend .dropdown-3 {
     position: absolute;
     top: -95px;
     left: 163px;
 }
-.dropend .dropdown-4{
+
+.dropend .dropdown-4 {
     position: absolute;
     top: -120px;
     left: 163px;
 }
-.dropend .dropdown-5{
+
+.dropend .dropdown-5 {
     position: absolute;
     top: -145px;
     left: 163px;
 }
-.dropend .dropdown-6{
+
+.dropend .dropdown-6 {
     position: absolute;
     top: -170px;
     left: 163px;
 }
-.dropend .dropdown-7{
+
+.dropend .dropdown-7 {
     position: absolute;
     top: -195px;
     left: 163px;
 }
-.dropend .dropdown-8{
+
+.dropend .dropdown-8 {
     position: absolute;
     top: -220px;
     left: 163px;
 }
-.dropend .dropdown-9{
+
+.dropend .dropdown-9 {
     position: absolute;
     top: -245px;
     left: 163px;
 }
-.dropend .dropdown-10{
+
+.dropend .dropdown-10 {
     position: absolute;
     top: -270px;
     left: 163px;
 }
-.dropend .dropdown-11{
+
+.dropend .dropdown-11 {
     position: absolute;
     top: -295px;
     left: 163px;
 }
 
-.dropend:hover .dropdown-menu{
+.dropend:hover .dropdown-menu {
     display: block;
 }
 
-.container .main img{
+.container .main img {
     width: 35px;
     height: 35px;
 }
-.img-gif{
-    max-width: 90%;
+
+.img-gif {
+    max-width: 90vw;
     cursor: pointer
 }
-.main .items{
+
+.main .items {
     width: 18%;
 }
-.row .card .card-padding{
-   padding-left: 5px;
+
+.row .card .card-padding {
+    padding-left: 5px;
 }
-.container .row .card:hover{
-    box-shadow: 1px 1px 2px rgb(198, 191, 191), -1px -1px 2px rgb(186, 181, 181) ;
+
+.container .row .card:hover {
+    box-shadow: 1px 1px 2px rgb(198, 191, 191), -1px -1px 2px rgb(186, 181, 181);
 }
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 2px;
     grid-auto-rows: minmax(100px, auto);
 }
-.img-width{
+
+.img-width {
     width: 90px;
 }
-.wrapper .card{
+
+.wrapper .card {
     border: none;
     cursor: pointer;
 }
-.wrapper .card:hover{
+
+.wrapper .card:hover {
     box-shadow: -4px -4px 7px gainsboro, 4px 4px 7px gainsboro;
 }
-.bg-color{
-   background-color: #F5F5F5;
+
+.bg-color {
+    background-color: #F5F5F5;
 }
 
-footer .container .row .col-md-3 a{
+footer .container .row .col-md-3 a {
     font-weight: 500;
     text-decoration: none;
 }
+
 footer .container .row .col-md-3 a:hover {
-    text-decoration: underline ;
+    text-decoration: underline;
 }
-.icon-color{
+
+.icon-color {
     color: rgb(227, 227, 229);
 }
-.card-padding{
+
+.card-padding {
     padding: 8px 0px;
 }
-.hide{
+
+.hide {
     visibility: hidden;
 }
 
+.for-small{
+    display: none;
+}
+.text-color{
+    color: #CC4704;
+}
+.countdown-bg{
+    background-color: #fc9d18;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+
+@media screen and (max-width: 600px) {
+
+   
+    .for-small .row p{
+        font-size: 9px;
+    }
+    .for-small .row a{
+        padding: 9px 4px !important;
+    }
+
+    .for-small .row .btn-download{
+        text-decoration: none;
+        color: #fff;
+        font-size: 8px;
+        background-color: #D83F00;
+        outline: none;
+    }
+        .for-small{
+        display: block !important;
+    }
+
+    nav form {
+        margin: 0 auto;
+    }
+
+    nav form input {
+        margin-left: 0;
+        width: 85vw;
+    }
+
+    nav form button {
+        position: absolute;
+        top: 0;
+        left: 80vw;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2px;
+        grid-auto-rows: minmax( auto);
+        
+    }
+    .wrapper .card{
+        box-shadow: 1px 1px 3px rgb(214, 207, 207);
+        height: 120px;
+    }
+    .img-width {
+        width: 60px;
+        height: 40px;
+    }
+}
+@media screen and (min-width: 601px) {
+  
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2px;
+            grid-auto-rows: minmax(100px auto);
+        }
+        .wrapper .card{
+            box-shadow: 2px 2px 4px gainsboro;
+        }
+
+}
+@media screen and (min-width: 992px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        gap: 2px;
+        grid-auto-rows: minmax( auto);
+    }
+
+}
