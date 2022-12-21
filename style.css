@@ -9,10 +9,16 @@
 .alert-bg {
     background-image: linear-gradient(to right, #41069E, #400586);
 }
-.alert img{
+
+.alert img {
     width: 80vw;
     height: 80px;
 }
+
+.dropdown-for-small .dropend .nav-link {
+    display: none;
+}
+
 .nav .nav-item .nav-link {
     color: rgb(55, 53, 53);
 }
@@ -104,11 +110,8 @@ nav form button {
     background-color: #F68404;
 }
 
-.carousel-item .col-md-10 img {
-    width: 100%;
-}
 
-.row .col-md-2 .nav .nav-item {
+.row .col-lg-2 .nav .nav-item {
     padding: 2px;
 
 }
@@ -275,39 +278,50 @@ footer .container .row .col-md-3 a:hover {
     visibility: hidden;
 }
 
-.for-small{
-    display: none;
-}
-.text-color{
+.text-color {
     color: #CC4704;
 }
-.countdown-bg{
+
+.countdown-bg {
     background-color: #fc9d18;
 }
-.dropdown:hover .dropdown-menu{
-    display:block;
+
+.dropdown:hover .dropdown-menu {
+    display: block;
 }
+
+
+.for-small .row .btn-download {
+    text-decoration: none;
+    color: #fff;
+    font-size: 8px;
+    background-color: #D83F00;
+    outline: none;
+}
+
+.for-small .row p {
+    font-size: 9px;
+}
+
+.for-small .row a {
+    padding: 8px 3px !important;
+}
+
+.container .main a {
+    width: 20%;
+}
+
+
 
 @media screen and (max-width: 600px) {
 
-   
-    .for-small .row p{
-        font-size: 9px;
+    .container .main a p {
+        font-size: 12px;
     }
-    .for-small .row a{
-        padding: 9px 4px !important;
+    .for-shadow .row .card{
+        box-shadow: 2px 2px 3px rgb(238, 238, 254);
     }
 
-    .for-small .row .btn-download{
-        text-decoration: none;
-        color: #fff;
-        font-size: 8px;
-        background-color: #D83F00;
-        outline: none;
-    }
-        .for-small{
-        display: block !important;
-    }
 
     nav form {
         margin: 0 auto;
@@ -323,41 +337,47 @@ footer .container .row .col-md-3 a:hover {
         top: 0;
         left: 80vw;
     }
+
     .wrapper {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 2px;
-        grid-auto-rows: minmax( auto);
-        
+        grid-auto-rows: minmax(auto);
+
     }
-    .wrapper .card{
+
+    .wrapper .card {
         box-shadow: 1px 1px 3px rgb(214, 207, 207);
         height: 120px;
     }
+
     .img-width {
         width: 60px;
         height: 40px;
     }
 }
+
 @media screen and (min-width: 601px) {
-  
-        .wrapper {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 2px;
-            grid-auto-rows: minmax(100px auto);
-        }
-        .wrapper .card{
-            box-shadow: 2px 2px 4px gainsboro;
-        }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2px;
+        grid-auto-rows: minmax(100px auto);
+    }
+
+    .wrapper .card {
+        box-shadow: 2px 2px 4px gainsboro;
+    }
 
 }
+
 @media screen and (min-width: 992px) {
     .wrapper {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         gap: 2px;
-        grid-auto-rows: minmax( auto);
+        grid-auto-rows: minmax(auto);
     }
 
 }
